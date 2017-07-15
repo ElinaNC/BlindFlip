@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Cantarell);
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+	font-family: Comfortaa,serif;
+	background-color: #181818;
+	color: #bfbfbf;  
+}
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    opacity: 0.3;
+    /*background-image: url("../images/green-smoke-small.jpg");*/
+    background-repeat: no-repeat;
+    background-position: left top; 
+    background-attachment: fixed;
+}
+
+
+#mainContainer{
+	width: 100%;
+	height: 100%;
+}
+#topLogoContainer{
+
+	background: blue;
+	width: 100%;
+	height: 10%;
+
+}
+#logo{
+	float: left;
+	background: red;
+	width: 20%;
+	min-width: 60px;
+	height: 100%;
+}
+#name{
+	background: yellow;
+	height: 100%;
+}
+#menu{
+	float: right;
+	background: red;
+	width: 20%;
+	min-width: 60px;
+	height: 100%;
+}
+
+#playGame{
+	background: white;
+	width: 100%;
+	height: 90%;
+}
+
+#statusContainer{
+	background: green;
+	width: 100%;
+	height: 10%;
+
+}
+
+#status1{
+	float: left;
+	background: blue;
+	width: 25%;
+	height: 100%;
+}
+
+#status2{
+	float: left;
+	background: orange;
+	width: 25%;
+	height: 100%;
+}
+
+#status3{
+	float: left;
+	background: blue;
+	width: 25%;
+	height: 100%;
+}
+
+#status4{
+	float: left;
+	background: orange;
+	width: 25%;
+	height: 100%;
+}
+
+#wordCharContainer{
+	background: red;
+	width: 100%;
+	height: 90%;
+	
+}
+
+#wordContainer{
+	background: yellow;
+	width: 100%;
+	height: 30%;
+}
+
+#word{
+	background: red;
+	width: 70%;
+	height: 50%;
+    margin: 0 auto;
+	position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+	
+
+}
+
+#charContainer{
+	background: green;
+	width: 100%;
+	height: 70%;
+}
+
+.randChar{
+	float: left;
+	background: blue;
+	font-size: 70px;
+	text-align: center;
+	font-weight: bold;
+	width: 20%;
+	height: 20%;
+	color: rgba(255, 255, 00, 0.0);
+
+}
+
+
+.charTrue{
+	background: green;
+	color: rgba(255, 255, 00, 1.0);
+}
+
+.charFalse{
+	background: red;
+	color: rgba(255, 255, 00, 1.0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
